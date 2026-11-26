@@ -1,0 +1,27 @@
+package variable;
+
+import java.util.Scanner;
+
+public class VariableDemo7 {
+    public static void main(String[] args){
+        /*定义两个整数类型的变量num1和num2，键盘录入数据分别为liangge变量赋值。
+         求两个数的和并打印
+        */
+
+        //找到Scanner
+        Scanner sc=new Scanner(System.in);
+        //让Scanner干活
+        System.out.println("请输入第一个整数");
+        int num1=sc.nextInt();
+        System.out.println(num1);
+        //让Scanner再次接收第二个整数
+        System.out.println("请输入第二个整数");
+        int num2=sc.nextInt();
+        System.out.println(num2);
+
+        int result=num1+num2;
+        System.out.println(result);
+
+
+    }
+}
